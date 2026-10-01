@@ -6,14 +6,8 @@
     <title>Cori Qhana | El directorio de servicios de Viacha</title>
     <meta name="description" content="Cori Qhana reúne en un solo lugar a técnicos, profesionales y 
     trabajadores independientes de Viacha, organizados por categorías y a un mensaje de distancia." />
-    <meta property="og:title" content="Cori Qhana | El directorio de servicios de Viacha" />
-    <meta property="og:description" content="Técnicos, profesionales y trabajadores independientes de Viacha, 
-    organizados por categorías y a un mensaje de distancia." />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_BO" />
-    <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NC
-    I+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMwMzAzMDMiLz48dGV4dCB4PSIzMiIgeT0iNDQiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc
-    2Fucy1zZXJpZiIgZm9udC1zaXplPSIzNCIgZm9udC13ZWlnaHQ9IjcwMCIgZmlsbD0iI2Q0YWYzNyIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QzwvdGV4dD48L3N2Zz4=" />
     <style>
       :root {
         --bg: #030303;
@@ -29,33 +23,27 @@
         --transition: 0.2s ease;
         --font: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       }
-
       * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
       }
-
       html {
         scroll-behavior: smooth;
       }
-
       body {
         background-color: var(--bg);
         color: var(--text);
         font-family: var(--font);
         line-height: 1.65;
       }
-
       section[id] {
         scroll-margin-top: 84px;
       }
-
       a {
         text-decoration: none;
         color: inherit;
       }
-
       button {
         font-family: inherit;
       }
@@ -65,7 +53,6 @@
         outline: 2px solid var(--gold-light);
         outline-offset: 3px;
       }
-
       .cabecera {
         position: sticky;
         top: 0;
@@ -78,14 +65,12 @@
         background-color: rgba(3, 3, 3, 0.92);
         border-bottom: 1px solid var(--border);
       }
-
       .logo {
         font-size: 21px;
         font-weight: 700;
         color: var(--gold);
         letter-spacing: 0.4px;
       }
-
       .logo span {
         color: var(--text);
         font-weight: 400;
@@ -96,7 +81,6 @@
         align-items: center;
         gap: 2px;
       }
-
       .cabecera nav a:not(.btn-oro) {
         padding: 9px 14px;
         font-size: 14.5px;
@@ -106,16 +90,13 @@
           color var(--transition),
           background-color var(--transition);
       }
-
       .cabecera nav a:not(.btn-oro):hover {
         color: var(--gold);
         background-color: rgba(212, 175, 55, 0.08);
       }
-
       .cabecera nav .btn-oro {
         margin-left: 12px;
       }
-
       .btn-oro,
       .btn-borde {
         display: inline-flex;
@@ -134,12 +115,10 @@
           background-color var(--transition);
         cursor: pointer;
       }
-
       .btn-chico {
         padding: 10px 20px;
         font-size: 13.5px;
       }
-
       .btn-oro {
         background-image: linear-gradient(
           135deg,
@@ -151,39 +130,33 @@
           0 4px 0 var(--gold-dark),
           0 10px 18px rgba(0, 0, 0, 0.35);
       }
-
       .btn-oro:hover {
         transform: translateY(-3px);
         box-shadow:
           0 7px 0 var(--gold-dark),
           0 16px 24px rgba(0, 0, 0, 0.4);
       }
-
       .btn-oro:active {
         transform: translateY(3px);
         box-shadow:
           0 1px 0 var(--gold-dark),
           0 4px 10px rgba(0, 0, 0, 0.3);
       }
-
       .btn-borde {
         border-color: var(--gold);
         color: var(--gold);
         background-color: transparent;
         box-shadow: 0 4px 0 rgba(212, 175, 55, 0.3);
       }
-
       .btn-borde:hover {
         background-color: rgba(212, 175, 55, 0.1);
         transform: translateY(-3px);
         box-shadow: 0 7px 0 rgba(212, 175, 55, 0.3);
       }
-
       .btn-borde:active {
         transform: translateY(3px);
         box-shadow: 0 1px 0 rgba(212, 175, 55, 0.3);
       }
-
       .kicker {
         display: inline-block;
         color: var(--gold);
@@ -193,7 +166,6 @@
         text-transform: uppercase;
         margin-bottom: 16px;
       }
-
       .hero {
         max-width: 1180px;
         margin: 0 auto;
@@ -203,27 +175,23 @@
         gap: 50px;
         align-items: center;
       }
-
       .hero h1 {
         font-size: clamp(32px, 4.8vw, 54px);
         font-weight: 700;
         line-height: 1.1;
         margin-bottom: 20px;
       }
-
       .hero .lead {
         color: var(--muted);
         font-size: 18px;
         max-width: 520px;
         margin-bottom: 32px;
       }
-
       .hero-botones {
         display: flex;
         flex-wrap: wrap;
         gap: 14px;
       }
-
       .hero-imagen {
         justify-self: center;
         width: 100%;
@@ -240,20 +208,17 @@
         box-shadow: 0 22px 40px rgba(0, 0, 0, 0.5);
         overflow: hidden;
       }
-
       .hero-imagen img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         display: block;
       }
-
       .cifras {
         max-width: 1180px;
         margin: 0 auto;
         padding: 0 32px;
       }
-
       .cifras-fila {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -262,16 +227,13 @@
         border-radius: var(--radius);
         box-shadow: 0 18px 30px rgba(0, 0, 0, 0.4);
       }
-
       .cifra {
         padding: 26px 30px;
         border-left: 1px solid var(--border);
       }
-
       .cifra:first-child {
         border-left: none;
       }
-
       .cifra strong {
         display: block;
         color: var(--gold);
@@ -283,51 +245,43 @@
         color: var(--muted);
         font-size: 14px;
       }
-
       .seccion {
         max-width: 1180px;
         margin: 0 auto;
         padding: 100px 32px 0;
       }
-
       .titulo-seccion {
         margin-bottom: 44px;
       }
-
       .titulo-seccion h2 {
         font-size: clamp(28px, 3.4vw, 40px);
         font-weight: 700;
         line-height: 1.15;
         max-width: 680px;
       }
-
       .titulo-seccion .lead {
         color: var(--muted);
         font-size: 16px;
         max-width: 560px;
         margin-top: 12px;
       }
-
       .dos-col {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 50px;
         align-items: center;
       }
-
       .dos-col .texto h2 {
         font-size: clamp(28px, 3.4vw, 40px);
         font-weight: 700;
         line-height: 1.15;
         margin-bottom: 20px;
       }
-
       .dos-col .texto p {
         color: var(--muted);
         font-size: 16px;
         margin-bottom: 14px;
       }
-
       .comparacion {
         background-color: var(--bg-card);
         border: 1px solid var(--border);
@@ -335,32 +289,26 @@
         padding: 30px;
         box-shadow: 0 22px 34px rgba(0, 0, 0, 0.45);
       }
-
       .comparacion h3 {
         font-size: 13px;
         letter-spacing: 1.6px;
         text-transform: uppercase;
         margin-bottom: 12px;
       }
-
       .comparacion .antes h3 {
         color: var(--muted);
       }
-
       .comparacion .con h3 {
         color: var(--gold);
       }
-
       .comparacion .con {
         margin-top: 22px;
         padding-top: 22px;
         border-top: 1px solid var(--border);
       }
-
       .lista {
         list-style: none;
       }
-
       .lista li {
         display: flex;
         gap: 12px;
@@ -368,7 +316,6 @@
         color: var(--muted);
         font-size: 15px;
       }
-
       .lista li::before {
         content: "";
         flex: 0 0 7px;
@@ -377,22 +324,18 @@
         border-radius: 50%;
         background-color: var(--gold-dark);
       }
-
       .comparacion .con .lista li {
         color: var(--text);
       }
-
       .comparacion .con .lista li::before {
         background-color: var(--gold);
       }
-
       .ofrece-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 24px;
         perspective: 1200px;
       }
-
       .panel {
         background-color: var(--bg-card);
         border: 1px solid var(--border);
@@ -403,7 +346,6 @@
           box-shadow var(--transition),
           border-color var(--transition);
       }
-
       .panel:hover {
         transform: translateY(-6px) rotateX(3deg) rotateY(-2deg);
         box-shadow: 0 22px 34px rgba(0, 0, 0, 0.5);
@@ -414,13 +356,11 @@
         font-size: 20px;
         margin-bottom: 14px;
       }
-
       .pasos {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 36px;
       }
-
       .numero {
         display: inline-flex;
         align-items: center;
@@ -441,24 +381,20 @@
           0 4px 0 rgba(0, 0, 0, 0.4),
           inset 0 1px 1px rgba(255, 255, 255, 0.35);
       }
-
       .paso h3 {
         font-size: 18px;
         margin-bottom: 8px;
       }
-
       .paso p {
         color: var(--muted);
         font-size: 15px;
       }
-
       .cats-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
         gap: 18px;
         perspective: 1200px;
       }
-
       .cat-tarjeta {
         background-color: var(--bg-card);
         border: 1px solid var(--border);
@@ -470,37 +406,31 @@
           background-color var(--transition),
           border-color var(--transition);
       }
-
       .cat-tarjeta:hover {
         background-color: var(--bg-card-hover);
         transform: translateY(-6px) rotateX(4deg) rotateY(-3deg);
         box-shadow: 0 22px 34px rgba(0, 0, 0, 0.5);
         border-color: var(--gold);
       }
-
       .cat-tarjeta h3 {
         font-size: 17px;
         margin-bottom: 4px;
       }
-
       .cat-tarjeta p {
         color: var(--muted);
         font-size: 13.5px;
       }
-
       .nota-cats {
         color: var(--muted);
         font-size: 14px;
         margin-top: 26px;
       }
-
       .planes-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 22px;
         perspective: 1200px;
       }
-
       .plan {
         display: flex;
         flex-direction: column;
@@ -513,13 +443,11 @@
           box-shadow var(--transition),
           border-color var(--transition);
       }
-
       .plan:hover {
         transform: translateY(-6px) rotateX(3deg) rotateY(-2deg);
         box-shadow: 0 22px 34px rgba(0, 0, 0, 0.5);
         border-color: var(--gold);
       }
-
       .plan-destacado {
         border-color: var(--gold);
         background-image: linear-gradient(
@@ -528,11 +456,9 @@
           rgba(212, 175, 55, 0) 45%
         );
       }
-
       .plan-proximo {
         border-style: dashed;
       }
-
       .plan-etiqueta {
         align-self: flex-start;
         padding: 4px 12px;
@@ -544,74 +470,61 @@
         letter-spacing: 0.6px;
         margin-bottom: 18px;
       }
-
       .plan h3 {
         font-size: 20px;
         margin-bottom: 6px;
       }
-
       .plan-precio {
         color: var(--gold);
         font-size: 38px;
         font-weight: 700;
         line-height: 1.2;
       }
-
       .plan-precio small {
         color: var(--muted);
         font-size: 13px;
         font-weight: 400;
       }
-
       .plan .lista {
         margin: 20px 0 26px;
         flex: 1;
       }
-
       .plan .btn-oro,
       .plan .btn-borde {
         align-self: flex-start;
       }
-
       .nota-planes {
         color: var(--muted);
         font-size: 13.5px;
         margin-top: 26px;
         max-width: 760px;
       }
-
       .compromiso-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 36px;
       }
-
       .item-comp {
         padding-top: 24px;
         border-top: 1px solid var(--border);
       }
-
       .item-comp h3 {
         font-size: 18px;
         margin-bottom: 8px;
       }
-
       .item-comp p {
         color: var(--muted);
         font-size: 15px;
       }
-
       .metas {
         display: grid;
         grid-template-columns: 0.8fr 1.2fr;
         gap: 60px;
         align-items: start;
       }
-
       .metas-cifras .gran {
         margin-bottom: 30px;
       }
-
       .metas-cifras .gran strong {
         display: block;
         color: var(--gold);
@@ -619,18 +532,15 @@
         line-height: 1;
         font-weight: 700;
       }
-
       .metas-cifras .gran span {
         color: var(--muted);
         font-size: 15px;
       }
-
       .linea {
         position: relative;
         list-style: none;
         padding-left: 36px;
       }
-
       .linea::before {
         content: "";
         position: absolute;
@@ -640,16 +550,13 @@
         width: 1px;
         background-color: var(--border);
       }
-
       .linea li {
         position: relative;
         padding-bottom: 26px;
       }
-
       .linea li:last-child {
         padding-bottom: 0;
       }
-
       .linea li::before {
         content: "";
         position: absolute;
@@ -661,58 +568,48 @@
         background-color: var(--bg);
         border: 2px solid var(--gold);
       }
-
       .linea strong {
         display: block;
         font-size: 17px;
       }
-
       .linea span {
         color: var(--muted);
         font-size: 14.5px;
       }
-
       .contacto {
         display: grid;
         grid-template-columns: 0.85fr 1.15fr;
         gap: 50px;
         align-items: start;
       }
-
       .contacto h2 {
         font-size: clamp(28px, 3.4vw, 40px);
         font-weight: 700;
         line-height: 1.15;
         margin-bottom: 14px;
       }
-
       .contacto .lead {
         color: var(--muted);
         font-size: 16px;
         margin-bottom: 28px;
       }
-
       .dato {
         padding: 14px 0;
         border-top: 1px solid var(--border);
       }
-
       .dato:last-of-type {
         border-bottom: 1px solid var(--border);
         margin-bottom: 26px;
       }
-
       .dato small {
         display: block;
         color: var(--muted);
         font-size: 12.5px;
         margin-bottom: 2px;
       }
-
       .dato p {
         font-size: 15px;
       }
-
       .formulario {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -723,18 +620,15 @@
         padding: 32px;
         box-shadow: 0 22px 34px rgba(0, 0, 0, 0.45);
       }
-
       .campo.full {
         grid-column: 1 / -1;
       }
-
       .campo label {
         display: block;
         color: var(--muted);
         font-size: 13.5px;
         margin-bottom: 6px;
       }
-
       .campo input,
       .campo select,
       .campo textarea {
@@ -750,7 +644,6 @@
           border-color var(--transition),
           box-shadow var(--transition);
       }
-
       .campo textarea {
         min-height: 120px;
         resize: vertical;
@@ -759,7 +652,6 @@
       .campo select option {
         background-color: #030303;
       }
-
       .campo input:focus,
       .campo select:focus,
       .campo textarea:focus {
@@ -767,28 +659,23 @@
         border-color: var(--gold);
         box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.15);
       }
-
       .formulario .btn-oro {
         grid-column: 1 / -1;
         justify-self: start;
       }
-
       .mensaje-form {
         grid-column: 1 / -1;
         color: var(--muted);
         font-size: 13px;
       }
-
       .mensaje-form.exito {
         color: var(--gold);
       }
-
       footer {
         margin-top: 110px;
         border-top: 1px solid var(--border);
         padding: 50px 32px 24px;
       }
-
       .pie-contenido {
         max-width: 1180px;
         margin: 0 auto;
@@ -797,27 +684,23 @@
         gap: 32px;
         padding-bottom: 30px;
       }
-
       .pie-marca .logo {
         display: inline-block;
         font-size: 19px;
         margin-bottom: 10px;
       }
-
       .pie-marca p,
       .pie-columna p {
         color: var(--muted);
         font-size: 13.5px;
         margin-bottom: 8px;
       }
-
       .pie-titulo {
         color: var(--text) !important;
         font-weight: 600;
         font-size: 14px;
         margin-bottom: 12px !important;
       }
-
       .pie-columna a {
         display: block;
         color: var(--muted);
@@ -825,11 +708,9 @@
         margin-bottom: 8px;
         transition: color var(--transition);
       }
-
       .pie-columna a:hover {
         color: var(--gold);
       }
-
       .pie-creditos {
         max-width: 1180px;
         margin: 0 auto;
@@ -842,7 +723,6 @@
         color: var(--muted);
         font-size: 12.5px;
       }
-
       .js .reveal {
         opacity: 0;
         transform: translateY(26px);
@@ -850,23 +730,19 @@
           opacity 0.7s ease,
           transform 0.7s ease;
       }
-
       .js .reveal.visible {
         opacity: 1;
         transform: none;
       }
-
       @media (max-width: 600px) {
         .cabecera {
           padding: 14px 18px;
         }
-
         .cabecera nav {
           flex-wrap: wrap;
           justify-content: center;
           gap: 4px;
         }
-
         .hero,
         .dos-col,
         .ofrece-grid,
@@ -877,82 +753,65 @@
         .contacto {
           grid-template-columns: 1fr;
         }
-
         .hero {
           text-align: center;
           padding: 50px 18px 40px;
         }
-
         .hero-imagen {
           order: -1;
           max-width: 240px;
           margin: 0 auto;
         }
-
         .hero .lead {
           margin-left: auto;
           margin-right: auto;
         }
-
         .hero-botones {
           justify-content: center;
         }
-
         .seccion {
           padding: 60px 18px 0;
         }
-
         .cifras {
           padding: 0 18px;
         }
-
         .cifras-fila {
           grid-template-columns: 1fr;
         }
-
         .cifra {
           border-left: none;
           border-top: 1px solid var(--border);
         }
-
         .cifra:first-child {
           border-top: none;
         }
-
         .metas {
           gap: 30px;
         }
-
         .metas-cifras {
           display: flex;
           gap: 30px;
         }
-
         .metas-cifras .gran {
           margin-bottom: 0;
         }
-
         .formulario {
           grid-template-columns: 1fr;
           padding: 22px;
         }
-
         .formulario .campo,
         .formulario .btn-oro,
         .mensaje-form {
           grid-column: 1;
         }
-
         .pie-contenido {
           grid-template-columns: 1fr;
         }
       }
-
       @media (prefers-reduced-motion: reduce) {
         html {
           scroll-behavior: auto;
         }
-
         .js .reveal {
           opacity: 1;
           transform: none;
@@ -976,7 +835,6 @@
         </button>
       </nav>
     </header>
-
     <main>
       <section class="hero" id="inicio">
         <div>
@@ -1000,7 +858,6 @@
             src="amanecer.jpg" onerror="this.remove()" />
         </div>
       </section>
-
       <div class="cifras">
         <div class="cifras-fila">
           <div class="cifra">
@@ -1015,24 +872,15 @@
           </div>
         </div>
       </div>
-
       <section class="seccion" id="nosotros">
         <div class="dos-col reveal">
           <div class="texto">
             <p class="kicker">Quiénes somos</p>
             <h2>Un solo lugar para encontrar a quién llamar</h2>
-            <p>
-              Cori Qhana es un directorio digital de servicios pensado
-              exclusivamente para la ciudad de Viacha. Reúne a técnicos,
-              profesionales y trabajadores independientes en perfiles claros,
-              organizados por categorías.
-            </p>
-            <p>
-              No reemplazamos los medios que ya usas, los ordenamos. Cada perfil
-              lleva directo a un mensaje de WhatsApp o a una llamada.
-            </p>
+            <p> Cori Qhana es un directorio digital de servicios pensado exclusivamente para la ciudad de Viacha. Reúne a técnicos,
+              profesionales y trabajadores independientes en perfiles claros, organizados por categorías.</p>
+            <p>No reemplazamos los medios que ya usas, los ordenamos. Cada perfil lleva directo a un mensaje de WhatsApp o a una llamada.</p>
           </div>
-
           <div class="comparacion">
             <div class="antes">
               <h3>Antes</h3>
@@ -1053,7 +901,6 @@
           </div>
         </div>
       </section>
-
       <section class="seccion" id="ofrecemos">
         <div class="titulo-seccion reveal">
           <p class="kicker">Qué ofrecemos</p>
@@ -1085,7 +932,6 @@
           </div>
         </div>
       </section>
-
       <section class="seccion" id="como-funciona">
         <div class="titulo-seccion reveal">
           <p class="kicker">Cómo funciona</p>
@@ -1117,13 +963,12 @@
           </div>
         </div>
       </section>
-
       <section class="seccion" id="categorias">
         <div class="titulo-seccion reveal">
           <p class="kicker">Categorías</p>
           <h2>Los servicios que encontrarás en Viacha</h2>
           <p class="lead">
-            Empezamos con diez categorías y las ampliamos según lo que la ciudad
+     Empezamos con diez categorías y las ampliamos según lo que la ciudad
             realmente necesite.
           </p>
         </div>
@@ -1173,7 +1018,6 @@
           ¿Quieres ver a los trabajadores de cada categoría? Ir al directorio.
         </p>
       </section>
-
       <section class="seccion" id="planes">
         <div class="titulo-seccion reveal">
           <p class="kicker">Planes para trabajadores</p>
@@ -1216,13 +1060,8 @@
             <button type="button" class="btn-borde">Consultar</button>
           </div>
         </div>
-        <p class="nota-planes reveal">
-          Los precios son referenciales y pueden ajustarse. La publicidad local
-          y los patrocinios de negocios o instituciones son opciones futuras, no
-          ingresos confirmados.
-        </p>
+        <p class="nota-planes reveal"> Los precios son referenciales y pueden ajustarse. La publicidad local y los patrocinios de negocios o instituciones son opciones futuras, no  ingresos confirmados. </p>
       </section>
-
       <section class="seccion" id="compromiso">
         <div class="titulo-seccion reveal">
           <p class="kicker">Nuestro compromiso</p>
@@ -1231,28 +1070,18 @@
         <div class="compromiso-grid reveal">
           <div class="item-comp">
             <h3>Perfiles revisados</h3>
-            <p>
-              Revisamos la información antes de publicarla, para reducir los
-              datos incorrectos o incompletos.
-            </p>
+            <p> Revisamos la información antes de publicarla, para reducir los datos incorrectos o incompletos </p>
           </div>
           <div class="item-comp">
             <h3>Datos bien cuidados</h3>
-            <p>
-              Los datos personales de los trabajadores se usan solo para las
-              funciones necesarias de la plataforma.
-            </p>
+            <p>Los datos personales de los trabajadores se usan solo para las funciones necesarias de la plataforma</p>
           </div>
           <div class="item-comp">
             <h3>Enfoque en Viacha</h3>
-            <p>
-              Nos concentramos en la ciudad y en sus necesidades antes de pensar
-              en otros lugares.
-            </p>
+            <p> Nos concentramos en la ciudad y en sus necesidades antes de pensar en otros lugares. </p>
           </div>
         </div>
       </section>
-
       <section class="seccion" id="metas">
         <div class="titulo-seccion reveal">
           <p class="kicker">Metas del primer año</p>
@@ -1295,16 +1124,13 @@
           </ol>
         </div>
       </section>
-
       <section class="seccion" id="contacto">
         <div class="contacto reveal">
           <div>
             <p class="kicker">Contacto</p>
             <h2>Hablemos</h2>
             <p class="lead">
-              Cuéntanos si quieres registrarte, anunciar tu negocio o si tienes
-              una sugerencia para mejorar.
-            </p>
+              Cuéntanos si quieres registrarte, anunciar tu negocio o si tienes una sugerencia para mejorar.</p>
             <div class="dato">
               <small>Correo</small>
               <p>cori.qhana@gmail.com</p>
@@ -1321,7 +1147,6 @@
               Escribir por WhatsApp
             </button>
           </div>
-
           <form class="formulario" id="form-contacto">
             <div class="campo">
               <label for="c-nombre">Nombre</label>
@@ -1329,13 +1154,7 @@
             </div>
             <div class="campo">
               <label for="c-contacto">Cómo contactarte</label>
-              <input
-                type="text"
-                id="c-contacto"
-                name="Contacto"
-                required
-                placeholder="Teléfono o correo"
-              />
+              <input type="text" id="c-contacto" name="Contacto" required placeholder="Teléfono o correo"/>
             </div>
             <div class="campo full">
               <label for="c-motivo">Motivo</label>
@@ -1364,7 +1183,6 @@
         </div>
       </section>
     </main>
-
     <footer>
       <div class="pie-contenido">
         <div class="pie-marca">
@@ -1392,15 +1210,11 @@
         <p>© 2026 Cori Qhana</p>
       </div>
     </footer>
-
     <script>
       (function () {
         "use strict";
-
         document.documentElement.classList.add("js");
-
         var elementos = document.querySelectorAll(".reveal");
-
         if ("IntersectionObserver" in window) {
           var observador = new IntersectionObserver(
             function (entradas) {
@@ -1413,7 +1227,6 @@
             },
             { threshold: 0.05, rootMargin: "0px 0px -40px 0px" },
           );
-
           for (var k = 0; k < elementos.length; k++) {
             observador.observe(elementos[k]);
           }
@@ -1422,18 +1235,14 @@
             elementos[m].classList.add("visible");
           }
         }
-
         var formContacto = document.getElementById("form-contacto");
         var mensajeContacto = document.getElementById("mensaje-contacto");
         var botonEnviar = formContacto.querySelector("button[type=submit]");
-
         formContacto.addEventListener("submit", function (evento) {
           evento.preventDefault();
-
           botonEnviar.disabled = true;
           mensajeContacto.textContent = "Enviando...";
           mensajeContacto.classList.remove("exito");
-
           setTimeout(function () {
             mensajeContacto.textContent =
               "¡Listo! Tu mensaje quedó registrado, te contactaremos pronto.";
